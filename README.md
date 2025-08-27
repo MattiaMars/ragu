@@ -102,6 +102,102 @@ Ollama not found: Make sure Ollama is installed and running.
 Model not found: Pull the desired model with
 ollama pull modelname
 
+
+
+
+
+Working version examples:
+
+Name: langchain
+Version: 0.3.27
+Summary: Building applications with LLMs through composability
+Home-page:
+Author:
+Author-email:
+License: MIT
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: langchain-core, langchain-text-splitters, langsmith, pydantic, PyYAML, requests, SQLAlchemy
+Required-by: langchain-community
+---
+Name: langchain-community
+Version: 0.3.27
+Summary: Community contributed LangChain integrations.
+Home-page:
+Author:
+Author-email:
+License: MIT
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: aiohttp, dataclasses-json, httpx-sse, langchain, langchain-core, langsmith, numpy, pydantic-settings, PyYAML, requests, SQLAlchemy, tenacity
+Required-by:
+---
+Name: chromadb
+Version: 1.0.20
+Summary: Chroma.
+Home-page: https://github.com/chroma-core/chroma
+Author:
+Author-email: Jeff Huber <jeff@trychroma.com>, Anton Troynikov <anton@trychroma.com>
+License:
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: bcrypt, build, grpcio, httpx, importlib-resources, jsonschema, kubernetes, mmh3, numpy, onnxruntime, opentelemetry-api, opentelemetry-exporter-otlp-proto-grpc, opentelemetry-sdk, orjson, overrides, posthog, pybase64, pydantic, pypika, pyyaml, rich, tenacity, tokenizers, tqdm, typer, typing-extensions, uvicorn
+Required-by:
+---
+Name: gradio
+Version: 5.43.1
+Summary: Python library for easily interacting with trained machine learning models
+Home-page: https://github.com/gradio-app/gradio
+Author:
+Author-email: Abubakar Abid <gradio-team@huggingface.co>, Ali Abid <gradio-team@huggingface.co>, Ali Abdalla <gradio-team@huggingface.co>, Dawood Khan <gradio-team@huggingface.co>, Ahsen Khaliq <gradio-team@huggingface.co>, Pete Allen <gradio-team@huggingface.co>, Ömer Faruk Özdemir <gradio-team@huggingface.co>, Freddy A Boulton <gradio-team@huggingface.co>, Hannah Blair <gradio-team@huggingface.co>
+License-Expression: Apache-2.0
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: aiofiles, anyio, brotli, fastapi, ffmpy, gradio-client, groovy, httpx, huggingface-hub, jinja2, markupsafe, numpy, orjson, packaging, pandas, pillow, pydantic, pydub, python-multipart, pyyaml, ruff, safehttpx, semantic-version, starlette, tomlkit, typer, typing-extensions, uvicorn
+Required-by:
+---
+Name: transformers
+Version: 4.55.4
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: transformers@huggingface.co
+License: Apache 2.0 License
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by: sentence-transformers
+---
+Name: sentence-transformers
+Version: 5.1.0
+Summary: Embeddings, Retrieval, and Reranking
+Home-page: https://www.SBERT.net
+Author:
+Author-email: Nils Reimers <info@nils-reimers.de>, Tom Aarsen <tom.aarsen@huggingface.co>
+License: Apache 2.0
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: huggingface-hub, Pillow, scikit-learn, scipy, torch, tqdm, transformers, typing_extensions
+Required-by:
+---
+Name: pypdf
+Version: 6.0.0
+Summary: A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files
+Home-page:
+Author:
+Author-email: Mathieu Fenniak <biziqe@mathieu.fenniak.net>
+License-Expression: BSD-3-Clause
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires:
+Required-by:
+---
+Name: torch
+Version: 2.8.0
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3-Clause
+Location: C:\Users\mamarsetti\Dati\ragu\my_env\Lib\site-packages
+Requires: filelock, fsspec, jinja2, networkx, sympy, typing-extensions
+Required-by: sentence-transformers
+
+(my_env) C:\Users\mamarsetti\Dati\ragu>
+
 .
 PDF not loading: Ensure your PDF is not encrypted or corrupted.
 License
